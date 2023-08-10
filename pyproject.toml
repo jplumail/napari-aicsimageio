@@ -45,7 +45,7 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
-  "aicsimageio[all]>=4.6.3",
+  "aicsimageio>=4.6.3",
   "fsspec[http]>=2022.7.1",  # version pin to support aicspylibczi
   "napari>=0.4.11",
   "psutil>=5.7.0",
